@@ -1,0 +1,15 @@
+#+TITLE: "Roguebots" project
+#+DESCRIPTION: Work progress, plans, ideas
+
+* TODO Idea
+* TODO View
+* IN-PROGRESS Gameplay
+** level generation
+- simple rectangular rooms
+- portals on the edges
+  - one way portals
+** powerups
+- random teleport
+- safe teleport
+- invisibility?
+** TODO enemies
