@@ -8,8 +8,15 @@
 - simple rectangular rooms
 - portals on the edges
   - one way portals
+- walls and fences (robots can see through last ones bun not through the formes ones)
 ** powerups
 - random teleport
 - safe teleport
 - invisibility?
+- mines (can kill the player, have some proximity range and damage range)
 ** TODO enemies
+- simple robots (die in first collision)
+- robots with limited range of directions which them can use to move to
+- mine droppers + landmines (with different ranges)
+- robot fabrics (can be destroyed with collide robots, mines, etc)
+
