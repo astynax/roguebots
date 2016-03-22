@@ -3,6 +3,13 @@
 
 * TODO Idea
 * TODO View
+** HUD
+- powerups
+- overal time
+- teleport count
+- level number
+- some timers and gauges (boss health, fabric spawning rate)
+- FOV summary for all robots if any walls presents on level map (need for stealth movements)
 * IN-PROGRESS Gameplay
 ** level generation
 - simple rectangular rooms
@@ -14,6 +21,15 @@
 - safe teleport
 - invisibility?
 - mines (can kill the player, have some proximity range and damage range)
+- smoke grenades (for slealth)
+- holografic decoys
+** level goals and conditions
+*** To complete level PC need to (one of?)
+- eliminate all of the enemies
+- defeate the boss
+- find a key(s)
+*** exit portal vs auto teleport after the goal will be reached?
+Exit portal can be useful, when PC will need to collect some powerups.
 ** TODO enemies
 - simple robots (die in first collision)
 - robots with limited range of directions which them can use to move to
