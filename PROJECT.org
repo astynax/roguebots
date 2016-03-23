@@ -30,9 +30,13 @@
 - find a key(s)
 *** exit portal vs auto teleport after the goal will be reached?
 Exit portal can be useful, when PC will need to collect some powerups.
+** mechanics
+- limited FOV?
+- limited LR scanner
 ** TODO enemies
 - simple robots (die in first collision)
 - robots with limited range of directions which them can use to move to
+- robots which sleeps in the beginning, and wakes up when PC moved near them (robots stays unseen until that)
 - mine droppers + landmines (with different ranges)
 - robot fabrics (can be destroyed with collide robots, mines, etc)
 
