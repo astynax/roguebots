@@ -2,6 +2,7 @@
 #+DESCRIPTION: Work progress, plans, ideas
 
 * TODO Idea
+*Roguebots* is a roguelike game with mechanics deeply inspired by [[https://en.m.wikipedia.org/wiki/Robots_(computer_game)][Robots]] game (aka "Gnome Robots", "Daleks", e.t.c). Player walks through the levels of giant tower to find & destroy the Mainframe - a mighty overmind of the Swarm of the Evil Robots. On each floor of the tower a hordes of robots will try to stop an invader, but wisdom and tactics, and also a couple tech gadgets will help you - a well-trained member of the anti-robot rebel - to complete the task and save the humanity!
 * TODO View
 ** HUD
 - powerups
@@ -9,7 +10,7 @@
 - teleport count
 - level number
 - some timers and gauges (boss health, fabric spawning rate)
-- FOV summary for all robots if any walls presents on level map (need for stealth movements)
+- overal FOV for all robots if any walls present on level map (this make sence for stealth play style)
 * IN-PROGRESS Gameplay
 ** level generation
 - simple rectangular rooms
