@@ -12,32 +12,43 @@
 - some timers and gauges (boss health, fabric spawning rate)
 - overal FOV for all robots if any walls present on level map (this make sence for stealth play style)
 * IN-PROGRESS Gameplay
-** level generation
+** Level generation
 - simple rectangular rooms
 - portals on the edges
   - one way portals
 - walls and fences (robots can see through last ones bun not through the formes ones)
-** powerups
-- random teleport
-- safe teleport
-- invisibility?
-- mines (can kill the player, have some proximity range and damage range)
-- smoke grenades (for slealth)
-- holografic decoys
-** level goals and conditions
+** Powerups
+- original ones
+  - random teleport
+  - safe teleport
+- stealth/visibility
+  - invisibility
+  - smoke grenades (for slealth)
+  - holografic decoys
+  - *scanner*
+- weapons
+  - mines (can kill the player, have some proximity range and damage range)
+** Level goals and conditions
 *** To complete level PC need to (one of?)
 - eliminate all of the enemies
 - defeate the boss
 - find a key(s)
-*** exit portal vs auto teleport after the goal will be reached?
+*** Question: exit portal vs auto teleport after the goal will be reached (classical)?
 Exit portal can be useful, when PC will need to collect some powerups.
 ** mechanics
-- limited FOV?
-- limited LR scanner
+- robots must see the player to move to
+- player must see the robots
+  - player can have some sort of *scanner*, which shows all of then robots on the level if they are aggressive 
+(see player and hunting him). Scanner do this by hacking of mainframe's alert network.
 ** TODO enemies
-- simple robots (die in first collision)
-- robots with limited range of directions which them can use to move to
-- robots which sleeps in the beginning, and wakes up when PC moved near them (robots stays unseen until that)
-- mine droppers + landmines (with different ranges)
-- robot fabrics (can be destroyed with collide robots, mines, etc)
+- simple robots, which
+  - move straight to the player when see him,
+  - kill him on collision,
+  - die when collide with other robots, walls, etc 
+- robots with limited range of possible directions to move to (moving only horizontally, vertically, ...)
+- sleeping robots which sleep in the beginning, and wake up when PC moved near them (robots stays unseen until that)
+- mine droppers
+- robot fabrics
+  - spawn the robots with constant rate
+  - can be destroyed by other robots, mines, etc
 
