@@ -4,6 +4,9 @@
 * TODO Idea
 *Roguebots* is a roguelike game with mechanics deeply inspired by [[https://en.m.wikipedia.org/wiki/Robots_(computer_game)][Robots]] game (aka "Gnome Robots", "Daleks", e.t.c). Player walks through the levels of giant tower to find & destroy the Mainframe - a mighty overmind of the Swarm of the Evil Robots. On each floor of the tower a hordes of robots will try to stop an invader, but wisdom and tactics, and also a couple tech gadgets will help you - a well-trained member of the anti-robot rebel - to complete the task and save the humanity!
 * TODO View
+In the beginning a whole level will fit to screen and no scrolling will needed to show them. And maybe this restriction will stay up to the "release" (if any will be).
+
+First version will work in the ASCII mode, and will support a graphical tiles in the future. Maybe an ASCII mode will be rendered with graphical context (with using SDL or even Gloss), or even will use the browser as a canvas (if a game will be implemented in Elm/GHCJS/PureScript). 
 ** HUD
 - powerups
 - overal time
@@ -12,6 +15,7 @@
 - some timers and gauges (boss health, fabric spawning rate)
 - overal FOV for all robots if any walls present on level map (this make sence for stealth play style)
 * IN-PROGRESS Gameplay
+Some sort of tutorial level or even a couple of ones maybe will be needed.
 ** Level generation
 - simple rectangular rooms
 - portals on the edges
