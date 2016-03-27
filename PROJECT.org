@@ -8,12 +8,12 @@ In the beginning a whole level will fit to screen and no scrolling will needed t
 
 First version will work in the ASCII mode, and will support a graphical tiles in the future. Maybe an ASCII mode will be rendered with graphical context (with using SDL or even Gloss), or even will use the browser as a canvas (if a game will be implemented in Elm/GHCJS/PureScript). 
 ** HUD
-- powerups
-- overal time
-- teleport count
+- powerups (with defined hotkeys)
+  - number of available teleports (both kinds)
+- overal time (maybe this must present only in some info/stats screen)
 - level number
-- some timers and gauges (boss health, fabric spawning rate)
-- overal FOV for all robots if any walls present on level map (this make sence for stealth play style)
+- some timers and gauges (boss health, factory cooldown)
+- summary (union) of all active robots's FOVs if any walls present on level map (this make sence for stealth play style)
 * IN-PROGRESS Gameplay
 Some sort of tutorial level or even a couple of ones maybe will be needed.
 ** Level generation
