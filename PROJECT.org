@@ -57,6 +57,6 @@ Exit portal can be useful, when PC will need to collect some powerups.
   - can be destroyed by other robots, mines, etc
 
 * Roadmap:
-- [] minimal app which can draw the view (ASCII version)
-- [] original mechanics, w/o multiple levels, visibility, disposable items, robots other than original ones
-- [] ...
+- [ ] minimal app which can draw the view (ASCII version)
+- [ ] original mechanics, w/o multiple levels, visibility, disposable items, robots other than original ones
+- [ ] ...
